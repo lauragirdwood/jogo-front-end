@@ -1,0 +1,69 @@
+#logo {
+    width: 10%;
+    height: 110px;
+    border-radius: 50%;
+    z-index: 1;
+    margin: 1em 
+}
+
+#nav {
+    background-color: rgb(53, 49, 49);
+    height: 4em;
+    width: 100%;
+    z-index: -1;
+}
+
+body div header nav ul li a {
+    color: greenyellow;
+}
+
+body div header nav ul li {
+    list-style: none;
+}
+
+body {
+    color: white;
+}
+
+header {
+    height: 5em;
+}
+
+.banner {
+    width: 100%;
+    height: 25em;
+}
+d
+.section-banner {
+    width: 100%;
+}
+
+.titulo {
+    color: white;
+    margin: 0.5em;
+}
+
+.merchan {
+    background-image: url('https://cinephiliabeyond.org/wp-content/uploads/2019/03/b61104_458cdbb399ae4271a5952cd4651ad8f6mv2-1050x525.jpg');
+    height: 20em;
+    margin: 2em;
+    opacity: 0.9;
+    flex-direction: column;
+}
+
+.text-merchan {
+    color:white;
+    font-size: 50px;
+}
+
+footer nav {
+    background-color: rgb(53, 49, 49);
+    height: 3em;
+}
+
+.li-footer{
+    list-style: none;
+}
+ body {
+     background-color: black;
+ }
