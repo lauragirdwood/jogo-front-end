@@ -1,6 +1,6 @@
 <div class="panel panel-primary">
     <div class="panel panel-heading">
-        <h2>Lista de Usuario</h2>
+        <h2>Lista de Usuários</h2>
     </div>
     <div class="panel-body">
         <table class="table table-striped">
@@ -17,8 +17,8 @@
                     <td>{{usuario.username}}</td>
                     <td>{{usuario.senha}}</td>
                     <td>
-                        <button (click)="deleteUsuario(usuario.id)" class="btn btn-danger">Remover</button>
-                        <button (click)="usuarioUpdate(pessoa.id)" class="btn btn-info" style="margin-left: 10px">Atualizar</button>
+                        <button (click)="deleteUsuario(usuario.id_usuario)" class="btn btn-danger">Remover</button>
+                        <button (click)="usuarioUpdate(usuario.id_usuario)" class="btn btn-info" style="margin-left: 10px">Atualizar</button>
                     </td>
                 </tr>
             </tbody>

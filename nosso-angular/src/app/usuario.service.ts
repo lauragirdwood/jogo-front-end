@@ -9,7 +9,7 @@ import { Observable } from '../../node_modules/rxjs';
 
 export class UsuarioService {
 
-  private baseUrl = "http://www.mocky.io/v2/5d39d0ad2f000049006ebe71"
+  private baseUrl = "http://localhost:8080/api_quiz/v1/usuarios"
 
   constructor(private http: HttpClient) { }
 
@@ -18,8 +18,8 @@ export class UsuarioService {
     return this.http.get(`${this.baseUrl}`);  // isso aqui são crases!
   }
 
-  getUsuario(id: number): Observable<any> {
-    return this.http.get(`${this.baseUrl}/${id}`);  // isso aqui são crases!
+  getUsuario(id_usuario: number): Observable<any> {
+    return this.http.get(`${this.baseUrl}/${id_usuario}`);  // isso aqui são crases!
   }
 
   // CREATE do CRUD
@@ -28,15 +28,12 @@ export class UsuarioService {
   }
 
   // UPDATE do CRUD
-  updateUsuario(id: number, value: any): Observable<Object> {
-    return this.http.put(`${this.baseUrl}/${id}`, value);
+  updateUsuario(id_usuario: number, value: any): Observable<Object> {
+    return this.http.put(`${this.baseUrl}/${id_usuario}`, value);
   }
 
   // DELETE do CRUD
-  deleteUsuario(id: number): Observable<any> {
-    return this.http.delete(`${this.baseUrl}/${id}`, {responseType: `text`});
+  deleteUsuario(id_usuario: number): Observable<any> {
+    return this.http.delete(`${this.baseUrl}/${id_usuario}`, {responseType: `text`});
   }
-
-
-
 }

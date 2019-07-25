@@ -23,19 +23,19 @@ export class UsuarioListComponent implements OnInit {
     this.usuarios = this.usuarioService.getUsuarios();
   }
 
-  deleteUsuario(id: number){
-    this.usuarioService.deleteUsuario(id)
+  deleteUsuario(id_usuario: number){
+    this.usuarioService.deleteUsuario(id_usuario)
     .subscribe(
       data => {
         console.log(data);
         this.reloadData();
       },
       error => console.log(error)
-    )
+    );
   }
 
-  usuarioUpdate(id: number) {
-    this.router.navigate(['update', id]);
+  usuarioUpdate(id_usuario: number) {
+    this.router.navigate(['update', id_usuario]);
   }
 
 }
