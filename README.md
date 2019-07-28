@@ -3,7 +3,7 @@ Aqui fica o front-end do jogo que desenvolvemos como Projeto Integrador do progr
 
 # Generation
 
-@ [anahysales](#@anahysales)
+@ [anahysales](@anahysales)
 * [O que eu aprendi nesse curso?](#o-que-eu-aprendi-nesse-curso)
 * [O que você vai encontrar neste repositório?](#o-que-você-vai-encontrar-neste-repositório)
 
