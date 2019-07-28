@@ -1,19 +1,21 @@
-# jogo-front-end
+# beadev / deleteBarreiras();
 Aqui fica o front-end do jogo que desenvolvemos como Projeto Integrador do programa Generation.
 
-# Generation
+Aqui fica o front-end do Projeto Integrador (projeto final) do curso Generation realizado em conjunto com Anahy (@anahysales), Gabriel (@gabrielANM), Nathalia (@matielonathalia) e Rebeca (@rebecalopes). Apresentado em Agosto de 2019 na Digital House em São Paulo. 
 
-*@ [anahysales](https://github.com/anahysales) 
-* [@anahysales](https://github.com/anahysales)
-@ [anahysales](https://github.com/anahysales)
-@ [anahysales](https://github.com/anahysales)
-@ [anahysales](https://github.com/anahysales)tem abrangência global e pertence ao braço social da McKinsey & Company. Ele visa formar e mentorar jovens que querem iniciar u)
-* [O que eu aprendi nesse curso?](#o-que-eu-aprendi-nesse-curso)
-* [O que você vai encontrar neste repositório?](#o-que-você-vai-encontrar-neste-repositório)
+## Grupo 3: 4 mulheres e 1 segredo
 
-## O que é Generation?
-O Programa [Generation](https://brazil.generation.org/) tem abrangência global e pertence ao braço social da McKinsey & Company. Ele visa formar e mentorar jovens que querem iniciar uma carreira na área de Desenvolvimento Full Stack Java. Faço parte da primeira turma aqui no Brasil! O curso tem o estilo Bootcamp, com duração de 3 meses e as aulas ocorrem em período integral, entre junho e agosto de 2019, na Digital House São Paulo.
+* Anahy [@anahysales](https://github.com/anahysales) 
+* Gabriel [@gabrielANM](https://github.com/gabrielANM)
+* Laura [@lauragirdwood](https://github.com/lauragirdwood)
+* Nathalia [@matielonathalia](https://github.com/matielonathalia)
+* Rebeca [@rebecalopes](https://github.com/rebecalopes)
 
-## O que eu aprendi nesse curso?
-Conhecimentos básicos de Front-End, Back-End e Banco de Dados. 
+### O que é a Generation?
+O Programa [Generation](https://brazil.generation.org/) tem abrangência global e pertence a um braço social da McKinsey & Company. 
 
+Ele visa formar e mentorar jovens que querem iniciar uma carreira na área de Desenvolvimento Full Stack com Java. Fazemos parte da primeira turma do programa aqui no Brasil! 
+No estilo Bootcamp, com aulas em período integral, relizado entre junho e agosto de 2019 na Digital House São Paulo, aprendemos e exercitamos soft skills e tecnologias de desenvolvimento front-end, back-end e banco de dados.
+
+## O que usamos na parte front-end do nosso jogo?
+HTML5 + CSS3 + Bootstrap 4 + Angular 8
