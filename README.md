@@ -3,7 +3,7 @@ Aqui fica o front-end do jogo que desenvolvemos como Projeto Integrador do progr
 
 # Generation
 
-@ [anahysales](@anahysales)
+@ [anahysales](https://github.com/anahysales) tem abrangência global e pertence ao braço social da McKinsey & Company. Ele visa formar e mentorar jovens que querem iniciar u)
 * [O que eu aprendi nesse curso?](#o-que-eu-aprendi-nesse-curso)
 * [O que você vai encontrar neste repositório?](#o-que-você-vai-encontrar-neste-repositório)
 
