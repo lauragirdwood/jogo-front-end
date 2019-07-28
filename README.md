@@ -1,5 +1,5 @@
 # beadev / deleteBarreiras();
-Aqui fica o front-end do jogo que desenvolvemos como Projeto Integrador do programa Generation.
+Aqui fica o front-end do jogo que desenvolvemos como Projeto Integrador do Programa Generation.
 
 ## Somos o grupo 4 mulheres e 1 segredo
 
