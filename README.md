@@ -1,9 +1,7 @@
 # beadev / deleteBarreiras();
 Aqui fica o front-end do jogo que desenvolvemos como Projeto Integrador do programa Generation.
 
-Aqui fica o front-end do Projeto Integrador (projeto final) do curso Generation realizado em conjunto com Anahy (@anahysales), Gabriel (@gabrielANM), Nathalia (@matielonathalia) e Rebeca (@rebecalopes). Apresentado em Agosto de 2019 na Digital House em São Paulo. 
-
-## Grupo 3: 4 mulheres e 1 segredo
+## Grupo 4 mulheres e 1 segredo
 
 * Anahy [@anahysales](https://github.com/anahysales) 
 * Gabriel [@gabrielANM](https://github.com/gabrielANM)
@@ -13,7 +11,6 @@ Aqui fica o front-end do Projeto Integrador (projeto final) do curso Generation 
 
 ### O que é a Generation?
 O Programa [Generation](https://brazil.generation.org/) tem abrangência global e pertence a um braço social da McKinsey & Company. 
-
 Ele visa formar e mentorar jovens que querem iniciar uma carreira na área de Desenvolvimento Full Stack com Java. Fazemos parte da primeira turma do programa aqui no Brasil! 
 No estilo Bootcamp, com aulas em período integral, relizado entre junho e agosto de 2019 na Digital House São Paulo, aprendemos e exercitamos soft skills e tecnologias de desenvolvimento front-end, back-end e banco de dados.
 
