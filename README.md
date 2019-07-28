@@ -3,8 +3,8 @@ Aqui fica o front-end do jogo que desenvolvemos como Projeto Integrador do progr
 
 # Generation
 
-@ [anahysales](https://github.com/anahysales) 
-@ [anahysales](https://github.com/anahysales)
+*@ [anahysales](https://github.com/anahysales) 
+* [@anahysales](https://github.com/anahysales)
 @ [anahysales](https://github.com/anahysales)
 @ [anahysales](https://github.com/anahysales)
 @ [anahysales](https://github.com/anahysales)tem abrangência global e pertence ao braço social da McKinsey & Company. Ele visa formar e mentorar jovens que querem iniciar u)
