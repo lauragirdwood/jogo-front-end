@@ -9,7 +9,7 @@ Aqui fica o front-end do jogo que desenvolvemos como Projeto Integrador do progr
 * Nathalia [@matielonathalia](https://github.com/matielonathalia)
 * Rebeca [@rebecalopes](https://github.com/rebecalopes)
 
-## O que usamos na parte front-end do nosso jogo?
+## O que usamos no front-end do nosso jogo?
 HTML5 + CSS3 + Bootstrap 4 + Angular 8
 
 ### O que é a Generation?
