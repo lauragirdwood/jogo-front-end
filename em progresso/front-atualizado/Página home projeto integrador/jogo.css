@@ -1,0 +1,33 @@
+.body {
+    background-color: rgb(42, 42, 42); 
+    height: 100%;
+    width: 100%;
+}
+
+.font-size {
+    font-size: 19px;
+}
+
+.orange-color {
+    color: #ff8106; 
+}
+
+.white-color {
+    color: white
+   }
+
+.alternative-button {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(42, 42, 42); 
+    border: 3px solid #ff8106;
+    border-radius: 10px;
+    width: 70%;
+    height: 3em;
+}
+
+.button-send {
+    color:#ff8106; 
+    background-color:rgb(42, 42, 42);
+    font-size: 50px;
+}
