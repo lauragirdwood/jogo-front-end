@@ -1,0 +1,90 @@
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+#banner .button
+{
+	display: inline-block;
+	padding: 1.3em 3em;
+	background: #F2762E;
+	border-radius: 30px;
+    margin: 0 15px;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #FFF;
+}
+
+.button:hover
+{
+	background: #E36922;
+}
+
+.button:active
+{
+}
+
+.button-big
+{
+	padding: 1.6em 4em;
+	font-size: 1.4em;
+	font-weight: 900;
+}
+
+#banner #botao-saibamais
+ {
+    background: rgb(42, 42, 42);
+    border-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+ }
+
+ /*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+#banner
+{
+color: rgba(255,255,255,.7);
+font-size: 1.5em;
+padding: 3em 0;
+}
+
+#banner a
+{
+color: rgba(255,255,255,.9);
+}
+
+#banner h2
+{
+padding-bottom: 0.50em;
+font-weight: 400;
+font-size: 3em;
+color: #FFF;
+}
+
+#banner .button
+{
+margin-top: 2em;
+border-radius: 50px;
+}
+
+#banner strong
+{
+color: #FFF;
+}
+
+#banner span
+{
+display: block;
+padding-top: 0.20em;
+text-transform: uppercase;
+font-size: 1.2em;
+color: #A2A2A2;
+}
