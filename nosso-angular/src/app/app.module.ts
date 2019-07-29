@@ -10,7 +10,8 @@ import { UsuarioUpdateComponent } from './usuario-update/usuario-update.componen
 import { HttpClientModule } from '../../node_modules/@angular/common/http';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './pages/home/home.component';
+
 
 @NgModule({
   declarations: [

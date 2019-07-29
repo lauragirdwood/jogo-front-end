@@ -16,6 +16,29 @@
 /* Menu                                                                          */
 /*********************************************************************************/
 
+.bg-dark {
+	background-color: rgb(0, 0, 0)!important;
+} 
+
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(255,255,255,1);
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	color: #fff;
+	background-color: rgb(255, 133, 0);
+	border-radius: 20px;
+}
+
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+	}
+}
+
 #menu
 {
 	position: absolute;
@@ -48,9 +71,6 @@
 	color: #FFF;
 }
 
-#menu li:hover a, #menu li.active a, #menu li.active span
-{
-}
 
 #menu .current_page_item a
 {
