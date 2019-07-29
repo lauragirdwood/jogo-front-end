@@ -10,7 +10,7 @@
         padding: 0px;
         background: #2b2b2b;
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 11pt;
+        font-size: 1rem;
         font-weight: 300;
         color: #6c6c6c
     }
@@ -38,6 +38,42 @@
     {
         line-height: 180%;
     }
+
+	/*header*/
+
+	.bg-dark {
+		background-color: rgb(0, 0, 0)!important;
+	}
+
+	.navbar-dark .navbar-nav .nav-link {
+		color: rgba(255,255,255,1);
+		font-size: 1em;
+		text-transform: uppercase;
+	}
+
+	.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+		color: #fff;
+		background-color: rgb(255, 133, 0);
+		border-radius: 20px;
+	}
+
+	@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+	}
+}
+
+	/*body*/
+	#saiba-mais {
+		background-color: rgba(255,255,255,1);
+		padding: 2em 0;
+	}
+
+
+
+
+
 
     strong
     {
@@ -315,7 +351,7 @@ ul.contact li a.icon-rss:before
 /* Button Style                                                                  */
 /*********************************************************************************/
 
-	.button
+	#banner .button
 {
 	display: inline-block;
 	padding: 1.3em 3em;
@@ -346,13 +382,13 @@ ul.contact li a.icon-rss:before
 .button-big
 {
 	padding: 1.6em 4em;
-	font-size: 1.4em;
+	font-size: 1.4em;/
 	font-weight: 900;
 }
 
-#botao-saibamais
+#banner #botao-saibamais
  {
-    background: #2b2b2b;
+    background: rgb(42, 42, 42);
     border-color: #FFFFFF;
     border-width: 1px;
     border-style: solid;
@@ -389,7 +425,7 @@ ul.contact li a.icon-rss:before
 	
 #header-wrapper
 {
-	background: #2b2b2b;
+	background: rgb(42, 42, 42)
 }
 
 #header
@@ -420,7 +456,7 @@ ul.contact li a.icon-rss:before
 	border-right: 1px solid rgba(0,0,0,.1);
 }
 
-#logo span
+/* #logo span
 {
 	display: inline-block;
 	padding-right: .50em;
@@ -445,7 +481,7 @@ ul.contact li a.icon-rss:before
 	position: absolute;
 	display: inline-block;
 	padding-right: 2em;
-}
+} */
 
 /*********************************************************************************/
 /* Menu                                                                          */
@@ -515,11 +551,9 @@ ul.contact li a.icon-rss:before
 
 #banner
 {
-	overflow: hidden;
-	width: 1000px;
-	text-align: center;
 	color: rgba(255,255,255,.7);
 	font-size: 1.5em;
+	padding: 3em 0;
 }
 
 #banner a
@@ -710,7 +744,7 @@ ul.contact li a.icon-rss:before
 	float: right;
 }
 
-#slider-wrapper
+/* #slider-wrapper
 {
 	padding: 6em 0em;
 	background: #DB3256;
@@ -835,8 +869,9 @@ ul.contact li a.icon-rss:before
 	background: #505050;
 	border-top: solid 1px #505050;
 }
+ */
 
-/*********************************************************************************/
+ /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
 
@@ -902,7 +937,7 @@ ul.contact li a.icon-rss:before
 	width: 560px;
 }
 
-.extra2  .ebox1
+.extra2 .ebox1
 {
 	float: left;
 	padding-right: 40px;
@@ -916,17 +951,24 @@ ul.contact li a.icon-rss:before
 
 /* Footer */
 
+footer {
+	
+}
 
-#footer
+#footer-social
 {
         display: flex;
         overflow: visible;
-        background-color: #2b2b2b;
-        padding-right: 20px;
+        background-color: rgb(42, 42, 42);
+        padding: 1em 0;
         justify-content: center;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 1em 0;
 
+}
+
+.orange{
+	color: rgb(255, 133, 0);
 }
 
 .content
@@ -943,13 +985,14 @@ ul.contact li a.icon-rss:before
     .container-footer
     {
         display: inline;
-        background-color: #2b2b2b
-
+        background-color: rgb(42, 42, 42);
+		
     }
 
-#footer-deve
+#footer-msg
 {
-    display:flex;
+	display:flex;
+	font-weight: 500;
     justify-content: center;
     align-items: center;
 }
