@@ -1,0 +1,146 @@
+#logo {
+    position: relative;
+    margin-bottom: 1em;
+    width:  50%;
+}
+
+
+.form {
+    background-color: white;
+}
+
+
+.border-orange {
+    border: 4px solid #ff8106;
+    height: 24em;
+    border-radius: 15px;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 0px;
+    font-size: 16px;
+    color: #6c6c6c;
+    font-weight: 400;
+    line-height: 28px;
+    background-color:  rgb(42, 42, 42);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #dadada;
+    margin: 0px 0px 15px 0px;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+  }
+  a {
+    text-decoration: none;
+    color: #6c6c6c;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  a:focus,
+  a:hover {
+    text-decoration: none;
+    color: #ff3c2e;
+  }
+  .tutor-block {
+    background-color: white;
+    padding: 30px;
+    border: 4px solid #ff8106;
+      
+      border-radius: 10px;
+      padding: 10px;
+  }
+  .tutor-content {
+    text-align: center;
+  }
+  .tutor-title {
+    margin-bottom: 0px;
+    color: #ff8106;
+    flex-wrap: nowrap;
+  }
+  .tutor-designation {
+    color: #ff3c2e;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+  .tutor-img img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .social-media {
+    background-color: #292929;
+    padding: 12px;
+    text-align: center;
+  }
+  .social-media span {
+    margin-right: 18px;
+    font-size: 20px;
+    font-family: "FontAwesome";
+  }
+  .mb60 {
+    margin-bottom: 60px;
+  }
+  .mt30 {
+    margin-top: 30px;
+  }
+  
+  .button
+  {
+      display: inline-block;
+      padding: 1.3em 3em;
+      background: #F2762E;
+      border-radius: 30px;
+      margin: 0 15px;
+      -moz-transition: opacity 0.25s ease-in-out;
+      -webkit-transition: opacity 0.25s ease-in-out;
+      -o-transition: opacity 0.25s ease-in-out;
+      -ms-transition: opacity 0.25s ease-in-out;
+      transition: opacity 0.25s ease-in-out;
+      letter-spacing: 0.20em;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #FFF;
+  }
+  
+  #botao-ingles {
+      margin: 0px;
+  }
+  
+  #perfil {
+      border: 4px solid #ff8106;
+      height: 28em;
+      border-radius: 10px;
+      padding: 10px;
+  }
+  
+  section {
+      background-color: rgb(42, 42, 42);
+  }
+  
+  #tittle {
+      margin-right: -20px;
+      text-align: center;
+  }
+  
+  .usuario {
+      justify-content: center;
+      
+  }
+  
+  
+  
