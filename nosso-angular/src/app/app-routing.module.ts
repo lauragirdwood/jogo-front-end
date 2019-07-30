@@ -5,6 +5,7 @@ import { UsuarioUpdateComponent } from './usuario-update/usuario-update.componen
 import { UsuarioCreateComponent } from './usuario-create/usuario-create.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
+import { CadastroComponent } from './pages/cadastro/cadastro.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -12,7 +13,8 @@ const routes: Routes = [
   {path: 'usuario/:id_usuario', component: UsuarioUpdateComponent},
   {path: 'add', component: UsuarioCreateComponent},
   {path: 'home', component: HomeComponent},
-  {path: 'login', component: LoginComponent}
+  {path: 'login', component: LoginComponent},
+  {path: 'cadastro', component: CadastroComponent}
 ];
 
 @NgModule({
