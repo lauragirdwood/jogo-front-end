@@ -11,6 +11,7 @@ import { HttpClientModule } from '../../node_modules/@angular/common/http';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
+import { LoginComponent } from './pages/login/login.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { HomeComponent } from './pages/home/home.component';
     UsuarioUpdateComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
