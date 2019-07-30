@@ -1,0 +1,34 @@
+section {
+    background-color: rgb(42, 42, 42);
+}
+
+.orange-color {
+    color: #ff8106;
+}
+
+.logo {
+    width: 13%;
+}
+
+.border-orange {
+    border: 4px solid #ff8106;
+    height: 28em;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.button-submit {
+    background-color: #ff8106;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px; 
+}
+
+.div-container {
+    padding: 0em 0em;
+}
+
+.row {
+    width: 45%;
+}
