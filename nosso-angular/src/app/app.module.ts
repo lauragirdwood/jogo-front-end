@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
+import { PerfilComponent } from './pages/perfil/perfil.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { CadastroComponent } from './pages/cadastro/cadastro.component';
     FooterComponent,
     HomeComponent,
     LoginComponent,
-    CadastroComponent
+    CadastroComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,

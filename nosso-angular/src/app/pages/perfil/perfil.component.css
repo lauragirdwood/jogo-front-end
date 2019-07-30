@@ -1,0 +1,160 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 0px;
+  font-size: 16px;
+  color: #6c6c6c;
+  font-weight: 400;
+  line-height: 28px;
+  background-color: #141414;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #dadada;
+  margin: 20px 0px 15px 0px;
+  font-weight: 300;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: #6c6c6c;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: #ff3c2e;
+}
+.tutor-block {
+  
+    background-color: white;
+  padding: 10px;
+  border: 1.5px solid #ff3c2e;
+    border-radius: 30px;
+}
+.tutor-content {
+  text-align: center;
+}
+.tutor-title {
+  color: #ff8106;
+
+}
+.tutor-designation {
+  color: #ff3c2e;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.tutor-img {
+  width: 70%;
+}
+.social-media {
+  background-color: #292929;
+  padding: 12px;
+  text-align: center;
+}
+.social-media span {
+  margin-right: 18px;
+  font-size: 20px;
+  font-family: "FontAwesome";
+}
+.mb60 {
+  margin-bottom: 60px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+
+.button
+{
+	display: inline-block;
+	padding: 1em 1em;
+	background: #F2762E;
+	border-radius: 30px;
+    margin: 0 15px;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #FFF;
+}
+
+#botao-ingles {
+    margin: 0px;
+}
+
+#perfil {
+    border-radius: 10px;
+    padding: 10px;
+    
+
+}
+
+section {
+    background-image: url("https://media.istockphoto.com/photos/data-transfer-concept-black-and-white-binary-code-tunnel-picture-id500898828"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20 px;
+    
+
+}
+
+#tittle {
+    margin-right: -20px;
+    text-align: center;
+}
+
+.usuario {
+     display: flex;
+    flex-direction: row;         
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.img-usuario {
+    padding-right: 10px;
+    border-radius: 120px;
+    border: 1.5px solid white;
+}
+
+.porcentagem {
+    margin-bottom: 20px;
+}
+
+.geral {
+    background-color: white;
+    padding: 30px;
+  border: 0px solid #ff8106;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0.95;
+    filter: alpha(opacity=95%);
+
+}
+
+.botao-sair {
+    border-radius: 30px;
+    
+}
+
+
+
+

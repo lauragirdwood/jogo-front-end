@@ -2,92 +2,17 @@
 /* Footer                                                                        */
 /*********************************************************************************/
 
-#extra
-{
-	overflow: hidden;
-	margin: 5em auto 2em auto;
-	padding: 2em 0em 2em 0em;
-	background: #ECECEC;
+footer {
+
+	background-color: #2b2b2b;
 }
 
-#extra h2
-{
-	margin: 0em;
-	padding: 0em;
-	font-weight: 400;
-	font-size: 2.4em;
-	color: #555555;
-}
-
-#extra span
-{
-	display: block;
-	padding-top: 0.20em;
-	text-transform: uppercase;
-	font-size: 1.2em;
-	color: #A2A2A2;
-}
-
-
-.extra2
-{
-}
-
-
-.margin-btm
-{
-	overflow: hidden;
-	margin-bottom: 5em;
-	padding-bottom: 5em;
-	border-bottom: 1px solid rgba(0,0,0,.1);
-}
-
-.extra2 .button
-{
-	margin-top: 2em;
-}
-
-.extra2 .title h2
-{
-	font-size: 2em;
-}
-
-.extra2 .title .byline
-{
-	font-size: 0.80em;
-}
-
-.extra2 .ebox1,
-.extra2 .ebox2
-{
-	width: 560px;
-}
-
-.extra2  .ebox1
-{
-	float: left;
-	padding-right: 40px;
-	border-right: 1px solid rgba(0,0,0,.1);
-}
-
-.extra2 .ebox2
-{
-	float: right;
-}
-
-/* Footer */
-
-
-#footer
+#footer p
 {
         display: flex;
         overflow: visible;
-        background-color: #2b2b2b;
-        padding-right: 20px;
         justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-
+        align-items: center;	
 }
 
 .content
@@ -108,9 +33,15 @@
 
     }
 
-#footer-deve
+#footer-deve p
 {
     display:flex;
     justify-content: center;
-    align-items: center;
+	align-items: center;	
+	color: rgba(255,255,255,.9);
+	margin-bottom: 0px !important;
+}
+
+footer div p  a {
+	padding: 10px 10px;
 }
