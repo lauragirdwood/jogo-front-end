@@ -15,6 +15,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { PerfilComponent } from './pages/perfil/perfil.component';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+import { JogoComponent } from './pages/jogo/jogo.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
     HomeComponent,
     LoginComponent,
     CadastroComponent,
-    PerfilComponent
+    PerfilComponent,
+    JogoComponent
   ],
   imports: [
     BrowserModule,
