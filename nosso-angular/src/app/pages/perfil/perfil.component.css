@@ -37,10 +37,11 @@ a:hover {
 }
 .tutor-block {
   
-    background-color: white;
+  background-color: white;
   padding: 10px;
   border: 1.5px solid #ff3c2e;
-    border-radius: 30px;
+  border-radius: 30px;
+  margin-bottom: 10%;
 }
 .tutor-content {
   text-align: center;
