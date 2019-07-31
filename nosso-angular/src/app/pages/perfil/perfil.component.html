@@ -4,7 +4,7 @@
 
   <div class="container" id="perfil">
         <div class="container usuario d-flex flex-column justify-content-center">
-            <img class="img-usuario mt-3" src="assets/usuario.jpg" width="150" height="130">
+            <img (click)="trocarImagem()" class="img-usuario mt-3" src="{{ avatar }}">
             <h2> Olá,<a href="">usuário!</a></h2>
         </div>
     <div class="row">
