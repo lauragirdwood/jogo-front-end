@@ -14,6 +14,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { PerfilComponent } from './pages/perfil/perfil.component';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { PerfilComponent } from './pages/perfil/perfil.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ScrollToModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
