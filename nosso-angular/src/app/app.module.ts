@@ -14,10 +14,13 @@ import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { PerfilComponent } from './pages/perfil/perfil.component';
+<<<<<<< HEAD
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { JogoComponent } from './pages/jogo/jogo.component';
 import { RespostacorretaComponent } from './pages/respostacorreta/respostacorreta.component';
 import { RespostaerradaComponent } from './pages/respostaerrada/respostaerrada.component';
+=======
+>>>>>>> c3c374d309d31ff6c08bddfa83a6221ed656eab2
 
 
 @NgModule({
@@ -31,17 +34,20 @@ import { RespostaerradaComponent } from './pages/respostaerrada/respostaerrada.c
     HomeComponent,
     LoginComponent,
     CadastroComponent,
+<<<<<<< HEAD
     PerfilComponent,
     JogoComponent,
     RespostacorretaComponent,
     RespostaerradaComponent
+=======
+    PerfilComponent
+>>>>>>> c3c374d309d31ff6c08bddfa83a6221ed656eab2
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule,
-    ScrollToModule.forRoot()
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
