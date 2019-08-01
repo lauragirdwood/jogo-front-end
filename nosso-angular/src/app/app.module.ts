@@ -16,6 +16,8 @@ import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { PerfilComponent } from './pages/perfil/perfil.component';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { JogoComponent } from './pages/jogo/jogo.component';
+import { RespostacorretaComponent } from './pages/respostacorreta/respostacorreta.component';
+import { RespostaerradaComponent } from './pages/respostaerrada/respostaerrada.component';
 
 
 @NgModule({
@@ -30,7 +32,9 @@ import { JogoComponent } from './pages/jogo/jogo.component';
     LoginComponent,
     CadastroComponent,
     PerfilComponent,
-    JogoComponent
+    JogoComponent,
+    RespostacorretaComponent,
+    RespostaerradaComponent
   ],
   imports: [
     BrowserModule,

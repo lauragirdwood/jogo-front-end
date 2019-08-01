@@ -8,6 +8,8 @@ import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { PerfilComponent } from './pages/perfil/perfil.component';
 import { JogoComponent } from './pages/jogo/jogo.component';
+import { RespostacorretaComponent } from './pages/respostacorreta/respostacorreta.component';
+import { RespostaerradaComponent } from './pages/respostaerrada/respostaerrada.component';
 import { from } from 'rxjs';
 
 const routes: Routes = [
@@ -19,7 +21,9 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'cadastro', component: CadastroComponent},
   {path: 'perfil', component: PerfilComponent},
-  {path: 'jogo', component: JogoComponent}
+  {path: 'jogo', component: JogoComponent},
+  {path: 'respostacorreta', component: RespostacorretaComponent},
+  {path: 'respostaerrada', component: RespostaerradaComponent}
 ];
 
 @NgModule({
