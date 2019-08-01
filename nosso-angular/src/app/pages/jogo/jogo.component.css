@@ -1,3 +1,21 @@
+section {
+    background-image: url("https://media.istockphoto.com/photos/data-transfer-concept-black-and-white-binary-code-tunnel-picture-id500898828"); 
+    background-size: 100%;
+    padding: 20px;
+}
+.principal {
+    background-color: white;
+    border: 3px solid #ff3c2e;
+    border-radius: 30px;
+    opacity: 0.95;
+    filter: alpha(opacity=95%);
+    
+
+}
+
+.sobre-jogo {
+    color: #ff3c2e;
+}
 .font-size {
     font-size: 19px;
 }
@@ -13,10 +31,9 @@
 .alternative-button {
     font-size: 20px;
     color: white;
-    background-color: rgb(53, 49, 49); 
-    border: 3px solid #ff8106;
-    border-radius: 10px;
-    width: 70%;
+    background-color: rgb(42, 42, 42); 
+    border-radius: 30px;
+    width: 120%;
     height: 3em;
 }
 
@@ -30,4 +47,7 @@
     width: 30%;
     margin-top: 1em;
     margin-bottom: 1em;
-}
+    background-color: #ff8106;
+    color: white;
+}   
+

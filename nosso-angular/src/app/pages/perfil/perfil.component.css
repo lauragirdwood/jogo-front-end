@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #6c6c6c;
+  color: #dadada;
   margin: 20px 0px 15px 0px;
   font-weight: 300;
   font-family: "Oswald", sans-serif;
@@ -25,7 +25,7 @@ h6 {
 }
 a {
   text-decoration: none;
-  color: #ff3c2e;
+  color: #6c6c6c;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -37,11 +37,10 @@ a:hover {
 }
 .tutor-block {
   
-  background-color: white;
+    background-color: white;
   padding: 10px;
   border: 1.5px solid #ff3c2e;
-  border-radius: 30px;
-  margin-bottom: 10%;
+    border-radius: 30px;
 }
 .tutor-content {
   text-align: center;
@@ -131,8 +130,9 @@ section {
 }
 
 .img-usuario {
+    padding-right: 10px;
     border-radius: 120px;
-  
+    border: 1.5px solid white;
 }
 
 .porcentagem {
@@ -155,27 +155,6 @@ section {
     
 }
 
-.botao-atualizar {
-  background-color: white;
-  border-radius: 30px;
-  color:white;
 
-  border: 2px solid #ff3c2e;
-  border-radius: 30px;
-}
-
-.ancora {
-  color: black;
-
-}
-
-.sair {
-  align-self: flex-end;
-}
-
-.pontuacao {
-  font-size: 60px;
-  color: #ff3c2e;
-}
 
 
