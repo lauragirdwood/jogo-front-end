@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { PerfilService } from './perfil.service';
-
 
 @Component({
   selector: 'app-perfil',
@@ -9,17 +7,9 @@ import { PerfilService } from './perfil.service';
 })
 export class PerfilComponent implements OnInit {
 
-  private avatar: string;
-
-  constructor( private perfilService: PerfilService ) { }
+  constructor() { }
 
   ngOnInit() {
-    this.avatar = this.perfilService.buscaAvatar();
-  }
-
-  trocarImagem(){
-    this.avatar = this.perfilService.buscaAvatar();
-
   }
 
 }
