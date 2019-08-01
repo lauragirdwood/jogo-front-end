@@ -14,6 +14,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { PerfilComponent } from './pages/perfil/perfil.component';
+import { SobrenosComponent } from './pages/sobrenos/sobrenos.component';
+import { ContatoComponent } from './pages/contato/contato.component';
+
+
 
 
 @NgModule({
@@ -27,7 +31,9 @@ import { PerfilComponent } from './pages/perfil/perfil.component';
     HomeComponent,
     LoginComponent,
     CadastroComponent,
-    PerfilComponent
+    PerfilComponent,
+    SobrenosComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,

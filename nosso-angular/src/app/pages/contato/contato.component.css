@@ -1,5 +1,10 @@
-.body {
-    background-color: rgb(42, 42, 42)
+
+
+section {
+    background-image: url("https://media.istockphoto.com/photos/data-transfer-concept-black-and-white-binary-code-tunnel-picture-id500898828"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20 px;
 }
 
 .orange-color {
@@ -28,9 +33,11 @@
 }
 
 .div-container {
-    padding: 0em 0em;
+    padding: 10px, 10px, 30px, 50px;
+    margin-bottom: 40%;
 }
 
 .row {
     width: 45%;
+    height: 10%;
 }
