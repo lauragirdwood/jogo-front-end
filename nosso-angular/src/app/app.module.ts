@@ -20,6 +20,7 @@ import { JogoComponent } from './pages/jogo/jogo.component';
 import { RespostacorretaComponent } from './pages/respostacorreta/respostacorreta.component';
 import { RespostaerradaComponent } from './pages/respostaerrada/respostaerrada.component';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+import { ResultadoComponent } from './pages/resultado/resultado.component';
 // import { JogoComponent } from './pages/jogo/jogo.component';
 // >>>>>>> parent of c3c374d... Atualizando com as alterações de ontem. Pagina contato, e sobre nós, passadas para o angular.
 
@@ -44,6 +45,7 @@ import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
     RespostacorretaComponent,
     RespostaerradaComponent,
     PerfilComponent,
+    ResultadoComponent,
 // =======
 //     JogoComponent
 //>>>>>>> parent of c3c374d... Atualizando com as alterações de ontem. Pagina contato, e sobre nós, passadas para o angular.
