@@ -25,7 +25,7 @@ export class JogoComponent implements OnInit {
   }
 
   clickZero() {
-    if (this.pergunta.respostas[0].certa) {
+    if (this.pergunta.respostas[6].certa) {
       alert("achou certo otario");
     } else {
       alert("achou errado otario")
@@ -33,7 +33,7 @@ export class JogoComponent implements OnInit {
   }
 
   clickUm() {
-    if (this.pergunta.respostas[1].certa) {
+    if (this.pergunta.respostas[7].certa) {
       alert("achou certo otario");
       this.pontuacao += this.pontuacao;
     } else {
@@ -42,7 +42,7 @@ export class JogoComponent implements OnInit {
   }
 
   clickDois() {
-    if (this.pergunta.respostas[2].certa) {
+    if (this.pergunta.respostas[8].certa) {
       alert("achou certo otario");
     } else {
       alert("achou errado otario")
@@ -50,12 +50,10 @@ export class JogoComponent implements OnInit {
   }
 
   clickTres() {
-    if (this.pergunta.respostas[3].certa) {
+    if (this.pergunta.respostas[9].certa) {
       alert("achou certo otario");
     } else {
       alert("achou errado otario")
     }
   }
-
-
 }
