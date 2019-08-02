@@ -9,12 +9,10 @@ section {
     border-radius: 30px;
     opacity: 0.95;
     filter: alpha(opacity=95%);
-    
-
 }
 
 .sobre-jogo {
-    color: #ff3c2e;
+    color: #ff8106;
 }
 .font-size {
     font-size: 19px;
@@ -49,5 +47,18 @@ section {
     margin-bottom: 1em;
     background-color: #ff8106;
     color: white;
-}   
+} 
 
+.final {
+    padding-bottom: 3em;
+}
+
+.logo {
+    width: 10%;
+}
+
+
+.ancora {
+    color: black;
+    font-size: 2em;
+}
