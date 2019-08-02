@@ -1,0 +1,46 @@
+
+
+section {
+    background-image: url("https://media.istockphoto.com/photos/data-transfer-concept-black-and-white-binary-code-tunnel-picture-id500898828"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20 px;
+}
+
+.orange-color {
+    color: #ff8106;
+}
+
+.logo {
+    border-radius: 20%;
+    width: 8%;
+    height: 6.5em;
+}
+
+.border-orange {
+    border: 4px solid #ff8106;
+    height: 28em;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.button-submit {
+    background-color: #ff8106;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px; 
+}
+
+.div-container {
+    padding: 10px, 10px, 30px, 50px;
+    margin-bottom: 40%;
+}
+
+.row {
+    width: 45%;
+    height: 10%;
+    margin-bottom: 8em;
+    margin-top: 8em;
+}
