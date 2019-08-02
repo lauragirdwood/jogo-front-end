@@ -6,13 +6,9 @@ section {
     color: #ff8106;
 }
 
-.logo {
-    width: 13%;
-}
-
 .border-orange {
     border: 4px solid #ff8106;
-    height: 28em;
+    height: 34em;
     border-radius: 10px;
     background-color: white;
 }
@@ -31,4 +27,10 @@ section {
 
 .row {
     width: 45%;
+}
+
+.logo2 {
+    position: center;
+    width: 40%;
+    margin-top: 10px;
 }

@@ -1,5 +1,5 @@
 section {
-    background-image: url("https://media.istockphoto.com/photos/data-transfer-concept-black-and-white-binary-code-tunnel-picture-id500898828"); 
+    background-image: url("https://media.istockphoto.com/photos/data-transfer-concept-black-and-white-binary-code-tunnel-picture-id500898828");
     background-size: 100%;
     padding: 20px;
 }
@@ -9,19 +9,17 @@ section {
     border-radius: 30px;
     opacity: 0.95;
     filter: alpha(opacity=95%);
-    
-
 }
 
 .sobre-jogo {
-    color: #ff3c2e;
+    color: #ff8106;
 }
 .font-size {
     font-size: 19px;
 }
 
 .orange-color {
-    color: #ff8106; 
+    color: #ff8106;
 }
 
 .white-color {
@@ -31,14 +29,14 @@ section {
 .alternative-button {
     font-size: 20px;
     color: white;
-    background-color: rgb(42, 42, 42); 
+    background-color: rgb(42, 42, 42);
     border-radius: 30px;
     width: 120%;
     height: 3em;
 }
 
 .button-send {
-    color:#ff8106; 
+    color:#ff8106;
     background-color:rgb(53, 49, 49);
     font-size: 50px;
 }
@@ -49,5 +47,18 @@ section {
     margin-bottom: 1em;
     background-color: #ff8106;
     color: white;
-}   
+}
 
+.final {
+    padding-bottom: 3em;
+}
+
+.logo {
+    width: 10%;
+}
+
+
+.ancora {
+    color: black;
+    font-size: 2em;
+}
