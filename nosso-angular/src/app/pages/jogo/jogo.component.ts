@@ -3,6 +3,8 @@ import {JogoService} from "./jogo.service";
 import {Observable} from "rxjs";
 import {Pergunta} from "../pergunta/pergunta";
 import {NgIf} from "@angular/common";
+import { FooterService } from 'src/app/footer/footer.service';
+import { HeaderService } from 'src/app/header/header.service';
 
 @Component({
   selector: 'app-jogo',
@@ -14,7 +16,7 @@ export class JogoComponent implements OnInit {
   pergunta: Pergunta;
   pontuacao: number;
 
-  constructor(private jogoService: JogoService) { }
+  constructor(private jogoService: JogoService, public footer: FooterService, public header: HeaderService) { }
 
   ngOnInit() {
     this.jogoService.getPerguntas(2).subscribe(
@@ -22,7 +24,11 @@ export class JogoComponent implements OnInit {
         console.log(data);
         this.pergunta = data;
               }, error => console.log(error));
-  }
+
+  this.footer.esconder();
+  this.header.esconder();
+
+}
 
   clickZero() {
     if (this.pergunta.respostas[6].certa) {

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HeaderService } from 'src/app/header/header.service';
+import { FooterService } from 'src/app/footer/footer.service';
 
 @Component({
   selector: 'app-sobrenos',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SobrenosComponent implements OnInit {
 
-  constructor() { }
+  constructor( public footer: FooterService, public header: HeaderService) { }
 
   ngOnInit() {
+    this.footer.mostrar();
+    this.header.mostrar();
   }
 
 }

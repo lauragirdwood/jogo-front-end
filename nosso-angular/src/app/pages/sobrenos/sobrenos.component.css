@@ -314,3 +314,9 @@ footer{
 	margin-bottom: 0px;
 
 }
+
+.descricao {
+	text-align: justify;
+	letter-spacing: -0.1mm;
+	word-spacing: -0.09mm;
+}

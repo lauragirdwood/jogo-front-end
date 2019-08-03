@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HeaderService } from 'src/app/header/header.service';
+import { FooterService } from 'src/app/footer/footer.service';
 
 @Component({
   selector: 'app-contato',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContatoComponent implements OnInit {
 
-  constructor() { }
+  constructor(public footer: FooterService, public header: HeaderService) { }
 
   ngOnInit() {
+    this.footer.mostrar();
+    this.header.mostrar();
   }
 
 }

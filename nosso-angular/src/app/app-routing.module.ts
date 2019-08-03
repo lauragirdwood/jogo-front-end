@@ -13,7 +13,7 @@ import { ContatoComponent } from './pages/contato/contato.component';
 import { JogoComponent } from './pages/jogo/jogo.component';
 import { RespostacorretaComponent } from './pages/respostacorreta/respostacorreta.component';
 import { RespostaerradaComponent } from './pages/respostaerrada/respostaerrada.component';
-
+import { ResultadoComponent } from './pages/resultado/resultado.component';
 
 
 
@@ -37,7 +37,8 @@ const routes: Routes = [
   {path: 'jogo', component: JogoComponent},
   {path: 'respostacorreta', component: RespostacorretaComponent},
   {path: 'respostaerrada', component: RespostaerradaComponent},
-  {path: 'perfil', component: PerfilComponent}
+  {path: 'perfil', component: PerfilComponent},
+  {path: 'resultado', component: ResultadoComponent}
 
 // =======
 //   {path: 'jogo', component: JogoComponent}
