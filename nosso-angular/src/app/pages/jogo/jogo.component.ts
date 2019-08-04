@@ -15,19 +15,19 @@ import { Router, ActivatedRoute } from '@angular/router';
 export class JogoComponent implements OnInit {
 
   pergunta: Pergunta;
-  pontuacao: number;
+  //pontuacao: number;
 
   constructor(private route: ActivatedRoute, private router: Router, private jogoService: JogoService, public footer: FooterService, public header: HeaderService) { }
 
-  aumentaPontuacao() {
-    this.pontuacao = this.pontuacao + 1;
-    alert(this.pontuacao);
-  }
+  // aumentaPontuacao() {
+  //   this.pontuacao = this.pontuacao + 1;
+  //   alert(this.pontuacao);
+  // }
 
-  diminuiPontuacao() {
-    this.pontuacao = this.pontuacao - 1;
-    alert(this.pontuacao);
-  }
+  // diminuiPontuacao() {
+  //   this.pontuacao = this.pontuacao - 1;
+  //   alert(this.pontuacao);
+  // }
 
   ngOnInit() {
     localStorage.setItem('idPergunta', this.route.snapshot.params['id']);
@@ -39,6 +39,8 @@ export class JogoComponent implements OnInit {
 
   this.footer.esconder();
   this.header.esconder();
+
+
 
 }
 
@@ -62,20 +64,20 @@ getResultadoErrado() {
     if (this.pergunta.respostas[0].certa)
     {
       this.getResultadoCerto();
-      this.aumentaPontuacao();
+      //this.aumentaPontuacao();
     } else {
       this.getResultadoErrado();
-      this.diminuiPontuacao();
+      //this.diminuiPontuacao();
     }
   }
 
   clickUm() {
     if (this.pergunta.respostas[1].certa) {
       this.getResultadoCerto();
-      this.aumentaPontuacao();
+      //this.aumentaPontuacao();
     } else {
       this.getResultadoErrado();
-      this.diminuiPontuacao();
+      //this.diminuiPontuacao();
     }
   }
 
@@ -83,10 +85,10 @@ getResultadoErrado() {
     if (this.pergunta.respostas[2].certa)
     {
       this.getResultadoCerto();
-      this.aumentaPontuacao();
+      //this.aumentaPontuacao();
     } else {
       this.getResultadoErrado();
-      this.diminuiPontuacao();
+      //this.diminuiPontuacao();
     }
   }
 
@@ -94,10 +96,10 @@ getResultadoErrado() {
     if (this.pergunta.respostas[3].certa)
     {
       this.getResultadoCerto();
-      this.aumentaPontuacao();
+      //this.aumentaPontuacao();
     } else {
       this.getResultadoErrado();
-      this.diminuiPontuacao();
+      //this.diminuiPontuacao();
   }
 }
 }
