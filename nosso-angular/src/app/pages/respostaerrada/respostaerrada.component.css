@@ -3,13 +3,13 @@ section {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 20px;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
 }
-
 .orange-color {
     color: #ff8106;
-    font-size: 2em;
 }
 
 .logo {
@@ -17,10 +17,13 @@ section {
 }
 
 .border-orange {
-    border: 4px solid #ff8106;
+    border: 4px solid #ff3c2e;
     height: 28em;
     border-radius: 10px;
     background-color: white;
+    margin-bottom: 25px;
+    opacity: 0.95;
+    filter: alpha(opacity=95%);
 }
 
 .button-submit {
@@ -29,6 +32,7 @@ section {
     color: white;
     border-radius: 30px;
     padding: 5px 10px; 
+    margin-top: 25px;
 }
 
 .div-container {
@@ -38,12 +42,13 @@ section {
 .row {
     width: 45%;
 }
-<<<<<<< HEAD
-=======
 
-.logo2 {
-    position: center;
-    width: 30%;
-    margin-top: 10px;
+.imagem {
+    margin-top: 20px;
 }
->>>>>>> 97a7adf89028b10df9dac5821386c262d0f0a5a2
+
+.texto {
+    margin-top: 15px;
+    text-align: justify;
+}
+

@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {JogoService} from "./jogo.service";
 import {Pergunta} from "../pergunta/pergunta";
 import {ActivatedRoute, Router} from "@angular/router";
+import {Resposta} from "../pergunta/resposta";
 
 @Component({
   selector: 'app-jogo',
@@ -11,21 +12,11 @@ import {ActivatedRoute, Router} from "@angular/router";
 export class JogoComponent implements OnInit {
 
   pergunta: Pergunta;
-  pontuacao: number;
+  pontuacao: string = localStorage.getItem('pontuação');
 
   constructor(private jogoService: JogoService,
               private route: ActivatedRoute,
               private router: Router) {
-  }
-
-  aumentaPontuacao() {
-    this.pontuacao = this.pontuacao + 1;
-    alert(this.pontuacao);
-  }
-
-  diminuiPontuacao() {
-    this.pontuacao = this.pontuacao - 1;
-    alert(this.pontuacao);
   }
 
   ngOnInit() {
@@ -35,6 +26,17 @@ export class JogoComponent implements OnInit {
         console.log(data);
         this.pergunta = data;
       }, error => console.log(error));
+  }
+
+  aumentaPontuacao() {
+    this.pontuacao = String(localStorage.getItem('pontuação'));
+    this.pontuacao += 1;
+    localStorage.setItem('pontuação', String(this.pontuacao));
+  }
+
+  diminuiPontuacao() {
+    this.pontuacao = String(localStorage.getItem('pontuação'));
+    localStorage.setItem('pontuação', String(this.pontuacao));
   }
 
   getResultadoCerto() {
