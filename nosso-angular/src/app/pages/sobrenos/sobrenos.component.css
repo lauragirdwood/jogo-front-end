@@ -317,6 +317,27 @@ footer{
 
 .descricao {
 	text-align: justify;
-	letter-spacing: -0.1mm;
-	word-spacing: -0.09mm;
+	letter-spacing: -0.5mm;
+	word-spacing: -0.01mm;
+}
+
+section {
+    background-image: url("https://thumbs.dreamstime.com/b/tela-de-programa%C3%A7%C3%A3o-do-c%C3%B3digo-fonte-da-codifica%C3%A7%C3%A3o-53840089.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+.container-principal {
+	background-color: white;
+	width: 80%;
+	border-radius: 20px;
+}
+
+.col-12 {
+	padding-top: 20px;
 }

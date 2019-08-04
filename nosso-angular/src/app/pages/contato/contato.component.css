@@ -1,18 +1,20 @@
 section {
-    background-image: url("https://i.pinimg.com/564x/3b/d4/1c/3bd41c73c696357db1f182109e94c710.jpg");
+    background-image: url("https://thumbs.dreamstime.com/b/tela-de-programa%C3%A7%C3%A3o-do-c%C3%B3digo-fonte-da-codifica%C3%A7%C3%A3o-53840089.jpg");
+    width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10px;
-    opacity: 0.70;
-    filter: alpha(opacity=75%);
 }
 
 .orange-color {
     color: #ff8106;
+    font-size: 2em;
+    margin-top: none;
 }
 
 .logo3 {
     border-top: 10px;
+    border-bottom: 10px;
     width: 30%;
 }
 
@@ -28,16 +30,13 @@ section {
     background-color: #ff8106;
     border: none;
     color: white;
-    border-radius: 10%;
+    border-radius: 30px;
     padding: 5px 10px; 
-}
-
-.div-container {
 }
 
 .row {
     width: 45%;
     height: 50%;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     margin-top: 1em;
 }
