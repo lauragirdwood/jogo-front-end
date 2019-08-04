@@ -34,7 +34,7 @@ const routes: Routes = [
   {path:'sobrenos', component: SobrenosComponent},
   {path:'contato', component: ContatoComponent},
   {path: 'perfil', component: PerfilComponent},
-  {path: 'jogo', component: JogoComponent},
+  {path: 'jogo/:id', component: JogoComponent},
   {path: 'respostacorreta', component: RespostacorretaComponent},
   {path: 'respostaerrada', component: RespostaerradaComponent},
   {path: 'perfil', component: PerfilComponent},
