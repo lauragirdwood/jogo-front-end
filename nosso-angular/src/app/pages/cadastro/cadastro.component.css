@@ -8,12 +8,10 @@ section {
 
 .orange-color {
     color: #ff8106;
-<<<<<<< HEAD
-=======
+
     margin-top: 3em;
     margin-bottom: 1em;
     font-size: 2em;
->>>>>>> 97a7adf89028b10df9dac5821386c262d0f0a5a2
 }
 
 #logo {
@@ -32,7 +30,7 @@ section {
     border: none;
     color: white;
     border-radius: 30px;
-    padding: 5px 10px; 
+    padding: 5px 10px;
 }
 
 .div-container {

@@ -28,7 +28,7 @@ section {
     border: none;
     color: white;
     border-radius: 30px;
-    padding: 5px 10px; 
+    padding: 5px 10px;
 }
 
 .div-container {
@@ -38,12 +38,9 @@ section {
 .row {
     width: 45%;
 }
-<<<<<<< HEAD
-=======
 
 .logo2 {
     position: center;
     width: 30%;
     margin-top: 10px;
 }
->>>>>>> 97a7adf89028b10df9dac5821386c262d0f0a5a2
