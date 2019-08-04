@@ -11,7 +11,7 @@ export class JogoService {
 
   constructor(private http: HttpClient) { }
 
-  getPerguntas(id: number): Observable<any> {
+  getPerguntas(id: string): Observable<any> {
     return this.http.get(`${this.baseUrl}/${id}`)
   }
 
