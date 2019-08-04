@@ -7,19 +7,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { PerfilComponent } from './pages/perfil/perfil.component';
-// <<<<<<< HEAD
-import { SobrenosComponent } from './pages/sobrenos/sobrenos.component';
-import { ContatoComponent } from './pages/contato/contato.component';
 import { JogoComponent } from './pages/jogo/jogo.component';
-import { RespostacorretaComponent } from './pages/respostacorreta/respostacorreta.component';
-import { RespostaerradaComponent } from './pages/respostaerrada/respostaerrada.component';
-import { ResultadoComponent } from './pages/resultado/resultado.component';
-
-
-
-// // import { JogoComponent } from './pages/jogo/jogo.component';
-// import { from } from 'rxjs';
-// >>>>>>> parent of c3c374d... Atualizando com as alterações de ontem. Pagina contato, e sobre nós, passadas para o angular.
+import { from } from 'rxjs';
+import {FeedbackComponent} from "./pages/feedback/feedback.component";
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -30,19 +20,8 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'cadastro', component: CadastroComponent},
   {path: 'perfil', component: PerfilComponent},
-// <<<<<<< HEAD
-  {path:'sobrenos', component: SobrenosComponent},
-  {path:'contato', component: ContatoComponent},
-  {path: 'perfil', component: PerfilComponent},
-  {path: 'jogo', component: JogoComponent},
-  {path: 'respostacorreta', component: RespostacorretaComponent},
-  {path: 'respostaerrada', component: RespostaerradaComponent},
-  {path: 'perfil', component: PerfilComponent},
-  {path: 'resultado', component: ResultadoComponent}
-
-// =======
-//   {path: 'jogo', component: JogoComponent}
-// >>>>>>> parent of c3c374d... Atualizando com as alterações de ontem. Pagina contato, e sobre nós, passadas para o angular.
+  {path: 'jogo/:id', component: JogoComponent},
+  {path: 'feedback', component: FeedbackComponent}
 ];
 
 @NgModule({

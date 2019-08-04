@@ -1,47 +1,43 @@
-<section>
-    <div class="container principal">
-        <div class="container">
-                <div class="row d-flex justify-content-between">
-                        <img class="d-inline-flex p-2 bd-highlight logo" src="assets/logo-devscore.png">
-                        <a href="#"  class="d-flex flex-row-reverse p-2 bd-highlight botao-atualizar ancora"> Sair </a>
+ <main>
+            <section>
+                <div class="white-color d-flex justify-content-center">
+                    <h2>Questão {{pergunta.numero}} / 6</h2>
+                </div>
+                <div class="white-color d-flex justify-content-center">
+                    <h3>Assunto x</h3>
+                </div>
+            </section>
+
+            <section class="row">
+                <div class="col-md-10 offset-md-1">
+                    <p class="font-size white-color m-3">
+                      Enunciado: {{pergunta.descricao}}
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <div class="row">
+                    <div class="col-md-5 offset-md-1 mt-3 d-flex justify-content-center align-items-center">
+                        <button (click)="clickZero()" id="btn1" class="alternative-button" type="submit">{{pergunta.respostas[0].descricao}}</button>
                     </div>
 
-        </div>
-        <div class="container">
-            <div class="white-color d-flex justify-content-center">
-                <h2 class="font-weight-bold sobre-jogo">ASSUNTO</h2>
-            </div>
-            <div class="white-color d-flex justify-content-center">
-                <h3 class="sobre-jogo">Questão {{pergunta.numero}} / 10</h3>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 offset-md-1"> 
-                    <p class="font-size white-color m-3">Enunciado: {{pergunta.descricao}}</p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 offset-md-1 mt-3 d-flex justify-content-center align-items-center">
-                    <button (click)="clickZero()" id="btn1" class="alternative-button" type="submit">{{pergunta.respostas[0].descricao}}</button>
+                    <div class="col-md-5 mt-3 d-flex justify-content-center align-items-center">
+                        <button (click)="clickUm()" id="btn2" class="alternative-button" type="submit">{{pergunta.respostas[1].descricao}}</button>
+                    </div>
                 </div>
 
-                <div class="col-md-5 mt-3 d-flex justify-content-center align-items-center">
-                    <button (click)="clickUm()" id="btn2" class="alternative-button" type="submit">{{pergunta.respostas[1].descricao}}</button>
-                </div>
-            </div>
-            <div class="row final">
-                <div class="col-md-5 offset-md-1 mt-3 d-flex justify-content-center align-items-center">
-                    <button (click)="clickDois()" id="btn3" class="alternative-button" type="submit">{{pergunta.respostas[2].descricao}}</button>
-                </div>
+                <div class="row">
+                    <div class="col-md-5 offset-md-1 mt-3 d-flex justify-content-center align-items-center">
+                        <button (click)="clickDois()" id="btn3" class="alternative-button" type="submit">{{pergunta.respostas[2].descricao}}</button>
+                    </div>
 
-                <div class="col-md-5 mt-3 d-flex justify-content-center align-items-center">
-                    <button (click)="clickTres()" id="btn4" class="alternative-button" type="submit">{{pergunta.respostas[3].descricao}}</button>
+                    <div class="col-md-5 mt-3 d-flex justify-content-center align-items-center">
+                        <button (click)="clickTres()" id="btn4" class="alternative-button" type="submit">{{pergunta.respostas[3].descricao}}</button>
+                    </div>
                 </div>
+            </section>
+            <div class="col-md-12 d-flex justify-content-center">
+                    <button id="btn5" class="alternative-button" aling="center" type="submit">Enviar</button>
             </div>
-        </div>   
-    </div>   
-</section>
+        </main>

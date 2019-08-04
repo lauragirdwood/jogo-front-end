@@ -4,17 +4,15 @@ section {
 
 .orange-color {
     color: #ff8106;
-    margin-top: 3em;
-    margin-bottom: 1em;
 }
 
 #logo {
-    width: 30%;
+    width: 20%;
 }
 
 .border-orange {
     border: 4px solid #ff8106;
-    height: 38em;
+    height: 28em;
     border-radius: 10px;
     background-color: white;
 }
@@ -29,10 +27,19 @@ section {
 
 .div-container {
     padding: 0em 0em;
+    width: 100%;
 }
 
 .row {
-    width: 45%;
-    height: 20%;
-    margin-bottom: 3em;
+    width: 100%;
+    height: 10em;
+}
+
+main{
+    width: 100%;
+    height: 15em;
+}
+.border-orange{
+    width: 100%;
+    height: 29em;
 }

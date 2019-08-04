@@ -15,3 +15,5 @@ d
 4nosso-angular/src/app/pages/jogo/jogo.component.html,5/a/5a05d87e7f7ab41ba15b7e23bc66e05ed8116ab0
 b
 2nosso-angular/src/app/pages/jogo/jogo.component.ts,a/9/a937a090368338d82202ac8546592da335d386a0
+S
+#nosso-angular/src/app/app.module.ts,4/5/45fbf5f18b2caff0bbf0e4f725339750b0876113

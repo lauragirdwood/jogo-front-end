@@ -1,10 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {JogoService} from "./jogo.service";
-import {Observable} from "rxjs";
 import {Pergunta} from "../pergunta/pergunta";
-import {NgIf} from "@angular/common";
-import { FooterService } from 'src/app/footer/footer.service';
-import { HeaderService } from 'src/app/header/header.service';
+import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
   selector: 'app-jogo',
@@ -16,50 +13,95 @@ export class JogoComponent implements OnInit {
   pergunta: Pergunta;
   pontuacao: number;
 
-  constructor(private jogoService: JogoService, public footer: FooterService, public header: HeaderService) { }
+  constructor(private jogoService: JogoService,
+              private route: ActivatedRoute,
+              private router: Router) {
+  }
+
+  aumentaPontuacao() {
+    this.pontuacao = this.pontuacao + 1;
+    alert(this.pontuacao);
+  }
+
+  diminuiPontuacao() {
+    this.pontuacao = this.pontuacao - 1;
+    alert(this.pontuacao);
+  }
 
   ngOnInit() {
-    this.jogoService.getPerguntas(2).subscribe(
+    localStorage.setItem('idPergunta', this.route.snapshot.params['id']);
+    this.jogoService.getPerguntas(localStorage.getItem('idPergunta')).subscribe(
       data => {
         console.log(data);
         this.pergunta = data;
-              }, error => console.log(error));
+      }, error => console.log(error));
+  }
 
-  this.footer.esconder();
-  this.header.esconder();
+  getResultadoCerto() {
+    let id = Number(localStorage.getItem('idPergunta'));
+    id += 1;
+    localStorage.setItem('idPergunta', String(id));
 
-}
+    this.router.navigate(['feedback']);
+  }
+
+  getResultadoErrado() {
+    let id = Number(localStorage.getItem('idPergunta'));
+    id += 1;
+    localStorage.setItem('idPergunta', String(id));
+
+    this.router.navigate(['feedback']);
+  }
 
   clickZero() {
-    if (this.pergunta.respostas[6].certa) {
+    if (this.pergunta.respostas[0].certa)
+    {
       alert("achou certo otario");
+      this.getResultadoCerto();
+      this.aumentaPontuacao();
     } else {
-      alert("achou errado otario")
+      alert("achou errado otario");
+      this.getResultadoErrado();
+      this.diminuiPontuacao();
     }
   }
 
   clickUm() {
-    if (this.pergunta.respostas[7].certa) {
+    if (this.pergunta.respostas[1].certa) {
       alert("achou certo otario");
-      this.pontuacao += this.pontuacao;
-    } else {
-      alert("achou errado otario")
+      this.getResultadoCerto();
+      this.aumentaPontuacao();
+    }
+     else {
+      alert("achou errado otario");
+      this.getResultadoErrado();
+      this.diminuiPontuacao();
     }
   }
 
   clickDois() {
-    if (this.pergunta.respostas[8].certa) {
+    if (this.pergunta.respostas[2].certa)
+    {
       alert("achou certo otario");
+      this.getResultadoCerto();
+      this.aumentaPontuacao();
     } else {
-      alert("achou errado otario")
+      alert("achou errado otario");
+      this.getResultadoErrado();
+      this.diminuiPontuacao();
     }
   }
 
   clickTres() {
-    if (this.pergunta.respostas[9].certa) {
+    if (this.pergunta.respostas[3].certa)
+    {
       alert("achou certo otario");
+      this.getResultadoCerto();
+      this.aumentaPontuacao();
     } else {
-      alert("achou errado otario")
+      alert("achou errado otario");
+      this.getResultadoErrado();
+      this.diminuiPontuacao();
     }
   }
 }
