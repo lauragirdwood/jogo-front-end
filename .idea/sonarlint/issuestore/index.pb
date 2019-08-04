@@ -17,3 +17,11 @@ b
 2nosso-angular/src/app/pages/jogo/jogo.component.ts,a/9/a937a090368338d82202ac8546592da335d386a0
 S
 #nosso-angular/src/app/app.module.ts,4/5/45fbf5f18b2caff0bbf0e4f725339750b0876113
+j
+:nosso-angular/src/app/pages/feedback/feedback.component.ts,f/6/f62dcfae1d7325fe100a5eaa086be2e07de84b37
+e
+5nosso-angular/src/app/pages/login/login.component.css,c/c/ccf6977d6da455d787e6b3f4225c90c752e6db40
+k
+;nosso-angular/src/app/pages/cadastro/cadastro.component.css,2/4/242e815bcc1061cd14bc8bc0c738f1c999f0f79c
+f
+6nosso-angular/src/app/pages/login/login.component.html,d/e/de56c967fd412feb79e569b30c3d8469baa4cccf
