@@ -6,19 +6,19 @@
 {
 	display: inline-block;
 	padding: 1.3em 3em;
-	background: #F2762E;
-	border-radius: 30px;
+	background: #E36922;
+	border-radius: 50px;
     margin: 0 15px;
 	-moz-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
 	-o-transition: opacity 0.25s ease-in-out;
 	-ms-transition: opacity 0.25s ease-in-out;
 	transition: opacity 0.25s ease-in-out;
-	letter-spacing: 0.20em;
+	letter-spacing: 0.1em;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 600;
-	color: #FFF;
+    color: #FFF;
 }
 
 .button:hover
@@ -52,6 +52,7 @@ font-size: 1.5em;
 font-family: 'Source Sans Pro', sans-serif;
 padding: 3em 0;
 background-color: rgb(42, 42, 42);
+font-family: 'Roboto Mono', monospace !important;
 }
 
 #banner a
@@ -59,18 +60,16 @@ background-color: rgb(42, 42, 42);
 color: rgba(255,255,255,.9);
 }
 
+#banner p {
+    font-size: 1em;
+}
+
 #banner h2
 {
 padding-bottom: 0.50em;
 font-weight: 400;
-font-size: 3em;
+font-size: 2em;
 color: #FFF;
-}
-
-#banner .button
-{
-margin-top: 2em;
-border-radius: 50px;
 }
 
 #banner strong
@@ -94,22 +93,19 @@ color: #A2A2A2;
 #imagemjogo
 {
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    position: center;
+    margin-left: 3.5em;
     
 }
 
 /*body*/
 
-#saiba-mais {
-    background-color: rgba(255,255,255,1);
-    padding: 2em 0;
-}
 
-.container
+.container-principal
     {
-        margin: 0px auto;
-        width: 1200px;
+        background-color:white;
+        width: 80%;
+        font-family: 'Roboto Mono', monospace !important;
     }
  .byline
     {
@@ -123,3 +119,34 @@ color: #A2A2A2;
     {
         line-height: 180%;
     }
+
+    section {
+        background-image: url("https://thumbs.dreamstime.com/b/tela-de-programa%C3%A7%C3%A3o-do-c%C3%B3digo-fonte-da-codifica%C3%A7%C3%A3o-53840089.jpg");
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+#saiba-mais {
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.texto {
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em; 
+}
+
+.text-center {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#title {
+    color: #ff8106;
+    
+}

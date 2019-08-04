@@ -1,9 +1,15 @@
 section {
-    background-color: rgb(42, 42, 42);
+    background-image: url("https://thumbs.dreamstime.com/b/tela-de-programa%C3%A7%C3%A3o-do-c%C3%B3digo-fonte-da-codifica%C3%A7%C3%A3o-53840089.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
 }
 
 .orange-color {
     color: #ff8106;
+    font-size: 2em;
 }
 
 .border-orange {
@@ -17,7 +23,7 @@ section {
     background-color: #ff8106;
     border: none;
     color: white;
-    border-radius: 5px;
+    border-radius: 30px;
     padding: 5px 10px; 
 }
 
@@ -31,6 +37,6 @@ section {
 
 .logo2 {
     position: center;
-    width: 40%;
+    width: 30%;
     margin-top: 10px;
 }

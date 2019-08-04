@@ -1,9 +1,16 @@
 section {
-    background-image: url("https://media.istockphoto.com/photos/data-transfer-concept-black-and-white-binary-code-tunnel-picture-id500898828"); 
-    background-size: 100%;
+    background-image: url("https://thumbs.dreamstime.com/b/tela-de-programa%C3%A7%C3%A3o-do-c%C3%B3digo-fonte-da-codifica%C3%A7%C3%A3o-53840089.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
 }
 .orange-color {
     color: #ff8106;
+    font-size: 2em;
 }
 
 .border-orange {
@@ -35,7 +42,7 @@ section {
 }
 
 .imagem {
-    margin-top: 20px;
+    margin-top: 0.5em;
 }
 
 h3 {
