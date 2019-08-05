@@ -15,6 +15,9 @@ export class RespostacorretaComponent implements OnInit {
 
   proximaPergunta() {
     this.router.navigate(['jogo/' + localStorage.getItem('idPergunta')]);
+    let id = Number(localStorage.getItem('idPergunta'));
+    if (id == 6) {
+      this.router.navigate(['resultado'])
+    }
   }
-
 }

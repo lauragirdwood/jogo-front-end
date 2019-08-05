@@ -20,8 +20,9 @@ section {
     background-color: white;
     margin-bottom: 25px;
     opacity: 0.95;
-    filter: alpha(opacity=95%);
     text-align: center;
+    margin-top: 3em;
+    height: 35.8em;
 }
 
 .button {
@@ -29,7 +30,7 @@ section {
     border: none;
     color: white;
     border-radius: 30px;
-    padding: 5px 10px; 
+    padding: 5px 10px;
     margin-top: 25px;
 }
 

@@ -13,7 +13,7 @@ section {
     border: 3px solid #ff3c2e;
     border-radius: 30px;
     opacity: 0.95;
-    filter: alpha(opacity=95%);
+    height: 39.4em;
 }
 
 .sobre-jogo {
@@ -21,6 +21,10 @@ section {
 }
 .font-size {
     font-size: 19px;
+}
+
+.perguntas {
+  margin-top: 5em;
 }
 
 .orange-color {
@@ -38,6 +42,7 @@ section {
     border-radius: 30px;
     width: 120%;
     height: 3em;
+
 }
 
 .button-send {
