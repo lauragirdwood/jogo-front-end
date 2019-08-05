@@ -29,6 +29,8 @@ export class JogoComponent implements OnInit {
   //   alert(this.pontuacao);
   // }
 
+  tema: string = 'LÓGICA'
+
   ngOnInit() {
     localStorage.setItem('idPergunta', this.route.snapshot.params['id']);
     this.jogoService.getPerguntas(localStorage.getItem('idPergunta')).subscribe(

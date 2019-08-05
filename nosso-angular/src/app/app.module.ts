@@ -37,19 +37,13 @@ import { ResultadoComponent } from './pages/resultado/resultado.component';
     LoginComponent,
     CadastroComponent,
     PerfilComponent,
-//<<<<<<< HEAD
     SobrenosComponent,
     ContatoComponent,
-    PerfilComponent,
     JogoComponent,
     RespostacorretaComponent,
     RespostaerradaComponent,
-    PerfilComponent,
     ResultadoComponent,
-// =======
-//     JogoComponent
-//>>>>>>> parent of c3c374d... Atualizando com as alterações de ontem. Pagina contato, e sobre nós, passadas para o angular.
-  ],
+ ],
   imports: [
     BrowserModule,
     AppRoutingModule,
