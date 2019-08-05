@@ -42,8 +42,6 @@ export class JogoComponent implements OnInit {
   this.footer.esconder();
   this.header.esconder();
 
-
-
 }
 
 getResultadoCerto() {
