@@ -1,5 +1,5 @@
 section {
-    background-image: url("https://media.istockphoto.com/photos/data-transfer-concept-black-and-white-binary-code-tunnel-picture-id500898828"); 
+    background-image: url("https://media.istockphoto.com/photos/data-transfer-concept-black-and-white-binary-code-tunnel-picture-id500898828");
     background-size: 100%;
 }
 .orange-color {
@@ -13,8 +13,9 @@ section {
     background-color: white;
     margin-bottom: 25px;
     opacity: 0.95;
-    filter: alpha(opacity=95%);
     text-align: center;
+    margin-top: 3em;
+    height: 35.8em;
 }
 
 .button {
@@ -22,7 +23,7 @@ section {
     border: none;
     color: white;
     border-radius: 30px;
-    padding: 5px 10px; 
+    padding: 5px 10px;
     margin-top: 25px;
 }
 

@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResultadoComponent implements OnInit {
 
+  pont: string = localStorage.getItem('pontuacao2');
+
   constructor() { }
 
   ngOnInit() {
+    let pont = 0;
+    localStorage.setItem('pontuacao2', String(pont));
   }
+zeraPontuacao() {
+
+}
 
 }

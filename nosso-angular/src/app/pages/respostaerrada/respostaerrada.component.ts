@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-respostaerrada',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RespostaerradaComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
+  proximaPergunta() {
+
+    this.router.navigate(['jogo/' + localStorage.getItem('idPergunta')]);
+    let id = Number(localStorage.getItem('idPergunta'));
+    if (id == 6) {
+      this.router.navigate(['resultado'])
+    }
+  }
 }
