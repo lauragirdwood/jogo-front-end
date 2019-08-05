@@ -1,8 +1,4 @@
 
-.bg-dark {
-	background-color: rgb(0, 0, 0)!important;
-}
-
 #section {
     background-color: #fff;
 }
@@ -26,22 +22,6 @@
 	}
 }
 
-
-html, body
-{
-	height: 100%;
-}
-
-body
-{
-	margin: 0px;
-	padding: 0px;
-	background: white;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1rem;
-	font-weight: 300;
-	color: #6c6c6c
-}
 
 h1, h2, h3
 {
@@ -70,128 +50,6 @@ p
 	line-height: 180%;
 }
 
-/*********************************************************************************/
-/* Footer                                                                        */
-/*********************************************************************************/
-
-
-#extra
-{
-	overflow: hidden;
-	margin: 5em auto 2em auto;
-	padding: 2em 0em 2em 0em;
-	background: #ECECEC;
-}
-
-#extra h2
-{
-	margin: 0em;
-	padding: 0em;
-	font-weight: 400;
-	font-size: 2.4em;
-	color: #555555;
-}
-
-footer{
-	display: flex;
-	justify-content: center;
-	align-items: center; 
-	background-color: black;
-}
-
-#extra span
-{
-	display: block;
-	padding-top: 0.20em;
-	text-transform: uppercase;
-	font-size: 1.2em;
-	color: #A2A2A2;
-}
-
-
-
-
-.margin-btm
-{
-	overflow: hidden;
-	margin-bottom: 5em;
-	padding-bottom: 5em;
-	border-bottom: 1px solid rgba(0,0,0,.1);
-}
-
-.extra2 .button
-{
-	margin-top: 2em;
-}
-
-.extra2 .title h2
-{
-	font-size: 2em;
-}
-
-.extra2 .title .byline
-{
-	font-size: 0.80em;
-}
-
-.extra2 .ebox1,
-.extra2 .ebox2
-{
-	width: 560px;
-}
-
-.extra2  .ebox1
-{
-	float: left;
-	padding-right: 40px;
-	border-right: 1px solid rgba(0,0,0,.1);
-}
-
-.extra2 .ebox2
-{
-	float: right;
-}
-
-/* Footer */
-
-
-#footer
-{
-        display: flex;
-        overflow: visible;
-        background-color: #2b2b2b;
-        padding-right: 20px;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-
-}
-
-.content
-{
-    text-align: center;
-}
-
-#sobreojogo
-{
-    text-align: center;
-}
-
-
-    .container-footer
-    {
-        display: inline;
-        background-color: black;
-
-    }
-
-#footer-deve
-{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 /* Integrantes */
 
@@ -217,7 +75,7 @@ footer{
 	color: black;
 }
 
-#integrantes img
+.mr-3
 {
 	border-radius: 120px;
 	color: white;
@@ -316,6 +174,22 @@ footer{
 }
 
 .descricao {
+	text-align: left;
+}
+
+.media {
+	padding: 0.5em;
+}
+
+@media (min-width: 992px) {
+	.media {
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+	}
+}
+
+.media-body {
+	padding-top: 1em;
 	text-align: justify;
 	letter-spacing: -0.5mm;
 	word-spacing: -0.01mm;

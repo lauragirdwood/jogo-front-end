@@ -10,8 +10,7 @@ export class RespostacorretaComponent implements OnInit {
 
   constructor(private router: Router) { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   proximaPergunta() {
     this.router.navigate(['jogo/' + localStorage.getItem('idPergunta')]);
