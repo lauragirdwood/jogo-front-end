@@ -1,0 +1,69 @@
+section {
+    background-image: url("https://thumbs.dreamstime.com/b/tela-de-programa%C3%A7%C3%A3o-do-c%C3%B3digo-fonte-da-codifica%C3%A7%C3%A3o-53840089.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+.principal {
+    background-color: white;
+    border: 3px solid #ff3c2e;
+    border-radius: 30px;
+    opacity: 0.95;
+    filter: alpha(opacity=95%);
+}
+
+.sobre-jogo {
+    color: #ff8106;
+}
+.font-size {
+    font-size: 19px;
+}
+
+.orange-color {
+    color: #ff8106;
+}
+
+.white-color {
+    color: black;
+   }
+
+.alternative-button {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(42, 42, 42);
+    border-radius: 30px;
+    width: 120%;
+    height: 3em;
+}
+
+.button-send {
+    color:#ff8106;
+    background-color:rgb(53, 49, 49);
+    font-size: 50px;
+}
+
+#btn5 {
+    width: 30%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #ff8106;
+    color: white;
+}
+
+.final {
+    padding-bottom: 3em;
+}
+
+.logo {
+    width: 10%;
+}
+
+
+.ancora {
+    color: black;
+    font-size: 2em;
+}

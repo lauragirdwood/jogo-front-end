@@ -12,18 +12,18 @@
                 <h2 class="font-weight-bold sobre-jogo">{{tema}}</h2>
             </div>
             <div class="white-color d-flex justify-content-center">
-                <h3 class="sobre-jogo">Questão {{pergunta.id}} / 5</h3>
+                <h3 class="sobre-jogo">Questão {{pergunta.id}} / 10</h3>
             </div>
         </div>
 
         <div class="container">
             <div class="row">
-                <div class="col-md-10 offset-md-1">
-                    <p class="font-size white-color m-3">{{pergunta.descricao}}</p>
+                <div class="col-md-10 offset-md-1"> 
+                    <p class="font-size white-color m-3">Enunciado: {{pergunta.descricao}}</p>
                 </div>
             </div>
         </div>
-        <div class="container perguntas">
+        <div class="container">
             <div class="row">
                 <div class="col-md-5 offset-md-1 mt-3 d-flex justify-content-center align-items-center">
                     <button (click)="clickZero()" id="btn1" class="alternative-button" type="submit">{{pergunta.respostas[0].descricao}}</button>
@@ -42,6 +42,6 @@
                     <button (click)="clickTres()" id="btn4" class="alternative-button" type="submit">{{pergunta.respostas[3].descricao}}</button>
                 </div>
             </div>
-        </div>
-    </div>
+        </div>   
+    </div>   
 </section>

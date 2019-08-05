@@ -1,0 +1,47 @@
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+footer {
+
+	background-color: #2b2b2b;
+}
+
+#footer p
+{
+        display: flex;
+        overflow: visible;
+        justify-content: center;
+        align-items: center;	
+}
+
+.content
+{
+    text-align: center;
+}
+
+#sobreojogo
+{
+    text-align: center;
+}
+
+
+    .container-footer
+    {
+        display: inline;
+        background-color: #2b2b2b
+
+    }
+
+#footer-deve p
+{
+    display:flex;
+    justify-content: center;
+	align-items: center;	
+	color: rgba(255,255,255,.9);
+	margin-bottom: 0px !important;
+}
+
+footer div p  a {
+	padding: 10px 10px;
+}

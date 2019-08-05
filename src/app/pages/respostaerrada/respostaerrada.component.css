@@ -1,0 +1,54 @@
+section {
+    background-image: url("https://thumbs.dreamstime.com/b/tela-de-programa%C3%A7%C3%A3o-do-c%C3%B3digo-fonte-da-codifica%C3%A7%C3%A3o-53840089.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+.orange-color {
+    color: #ff8106;
+}
+
+.logo {
+    width: 13%;
+}
+
+.border-orange {
+    border: 4px solid #ff3c2e;
+    height: 28em;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 25px;
+    opacity: 0.95;
+    filter: alpha(opacity=95%);
+}
+
+.button-submit {
+    background-color: #ff8106;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding: 5px 10px; 
+    margin-top: 25px;
+}
+
+.div-container {
+    padding: 0em 0em;
+}
+
+.row {
+    width: 45%;
+}
+
+.imagem {
+    margin-top: 20px;
+}
+
+.texto {
+    margin-top: 15px;
+    text-align: justify;
+}
+
