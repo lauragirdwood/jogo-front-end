@@ -9,6 +9,7 @@ Aqui fica o front-end do jogo que desenvolvemos como Projeto Integrador do Progr
 * Nathalia [@matielonathalia](https://github.com/matielonathalia)
 * Rebeca [@rebecalopes](https://github.com/rebecalopes)
 
+#codebuild
 ## O que usamos no front-end do nosso jogo?
 HTML5 + CSS3 + Bootstrap 4 + Angular 8
 
